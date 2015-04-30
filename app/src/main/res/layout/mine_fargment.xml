@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:horizontalSpacing="6.0dip"
+        android:numColumns="2"
+        android:layout_alignParentBottom="true"
+        android:verticalSpacing="6.0dip" />
+
+    <RelativeLayout
+        android:padding="6.0dip"
+        android:id="@+id/loacal_layout"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_above="@id/gridview"
+        android:background="@drawable/gridview_item_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/local_iv"
+            android:src="@drawable/img_apshare_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/local_title_tv"
+            android:text="本地音乐"
+            android:layout_toRightOf="@id/local_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="4首歌曲"
+            android:layout_toRightOf="@id/local_iv"
+            android:layout_below="@id/local_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/local_menu_iv"
+            android:src="@drawable/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

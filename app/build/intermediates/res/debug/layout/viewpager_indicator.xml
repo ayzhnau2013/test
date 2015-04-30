@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/indicator_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/indicator_one"
+            style="@style/RadioStyleOfMine"
+            android:text="第一个" />
+
+        <RadioButton
+            android:id="@+id/indicator_two"
+            style="@style/RadioStyleOfMine"
+            android:text="第二个" />
+
+        <RadioButton
+            android:id="@+id/indicator_three"
+            style="@style/RadioStyleOfMine"
+            android:text="第三个" />
+
+        <RadioButton
+            android:id="@+id/indicator_four"
+            style="@style/RadioStyleOfMine"
+            android:text="第四个" />
+    </RadioGroup>
+
+    <com.mine.app.widget.LineIndicator
+        android:id="@+id/title_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="4dip" />
+
+</LinearLayout><!-- From: file:/home/zhu/AndroidstudioProjects/Test/app/src/main/res/layout/viewpager_indicator.xml -->

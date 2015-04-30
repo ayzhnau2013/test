@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#adadad</color>
+    <color name="black_text_light">#8d8d8d</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="dark_grey_radiobtn_cheked">#3a3a3a</color>
+    <color name="dark_grey_radiobtn">#424242</color>
+    <color name="green_progress">#4DB254</color>
+    <color name="blue_text_login_register">#067CD7</color>
+    
+    
+    <color name="grey_main_style_light">#F4F4F4</color>
+    <color name="grey_btn_normal">#DDDDDD</color>
+    <color name="grey_btn_clicked">#BFB9B9</color>
+    <color name="grey_rdbtn_nomal">#A8A8A8</color>
+    
+    <color name="green_btn_normal">#36AB3E</color>
+    <color name="green_btn_clicked">#2F8735</color>
+   
+    <color name="pink_btn">#FF275F</color>
+    <color name="pink_btn_pressed">#c8222a</color>
+    
+    <color name="red">#ffff0000</color>
+    <color name="pink">#ffff2072</color>
+    <color name="category_color_content">#89000000</color>
+    <color name="category_color_title">#dd000000</color>
+    <color name="category_color_update">#ff40b302</color>
+
+    <color name="app_detail_title_bg">#44000000</color>
+    <color name="app_detail_show_more">#4169E1</color>
+
+    <color name="cpb_grey">#ffdedede</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_blue_dark">#ff00719b</color>
+    <color name="cpb_red">#ffff4444</color>
+    <color name="cpb_red_dark">#ffcd3a3a</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_green_dark">#ff6d9b00</color>
+    <color name="cpb_white">@android:color/white</color>
+    <color name="cpb_system_app">#65c294</color>
+    
+    <color name="app_right_backgroud">#fff5f5f5</color>
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="half_transparent">#3f000000</color>
+</resources>

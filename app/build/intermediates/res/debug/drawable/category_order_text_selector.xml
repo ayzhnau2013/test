@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:color="@color/pink" />
+    <item android:state_checked="true" android:color="@color/pink" />
+    <item android:state_checked="false" android:color="@color/category_color_title" />
+    <item android:color="@color/category_color_title" />
+
+</selector><!-- From: file:/home/zhu/AndroidstudioProjects/Test/app/src/main/res/drawable/category_order_text_selector.xml -->
